@@ -1,0 +1,22 @@
+[build-system]
+requires = ["scikit-build-core==0.11.6", "pybind11==3.0.1"]
+build-backend = "scikit_build_core.build"
+
+[project]
+name = "hokm-engine"
+version = "0.1.0"
+description = "C++17 partnership Hokm mechanics with thin Python bindings"
+requires-python = ">=3.10"
+readme = "README.md"
+
+[project.optional-dependencies]
+test = ["pytest>=8,<10"]
+
+[tool.scikit-build]
+cmake.build-type = "Release"
+wheel.packages = ["python/hokm"]
+
+[tool.scikit-build.cmake.define]
+HOKM_BUILD_PYTHON = "ON"
+HOKM_BUILD_TESTS = "OFF"
+HOKM_BUILD_TOOLS = "OFF"

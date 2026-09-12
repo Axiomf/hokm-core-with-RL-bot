@@ -1,0 +1,196 @@
+{
+  "machine": "Linux-6.18.35-x86_64-with-glibc2.39",
+  "cpu": "INTEL(R) XEON(R) PLATINUM 8573C",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "cmake_settings": [
+    "CMAKE_BUILD_TYPE:STRING=Release",
+    "CMAKE_CXX_COMPILER:FILEPATH=/usr/bin/c++",
+    "CMAKE_CXX_FLAGS:STRING=",
+    "CMAKE_CXX_FLAGS_RELEASE:STRING=-O3 -DNDEBUG"
+  ],
+  "dependencies": {
+    "hokm-engine": "0.1.0",
+    "pybind11": "3.0.1",
+    "scikit-build-core": "0.11.6"
+  },
+  "seed": 123,
+  "matches": 5000,
+  "repeats": 3,
+  "driver_seed": "0x12345678",
+  "runs": {
+    "native_plain": [
+      {
+        "mode": "plain",
+        "seed": 123,
+        "matches": 5000,
+        "steps": 2406127,
+        "rounds": 53567,
+        "seconds": 0.55195,
+        "steps_per_second": 4359320.0,
+        "rounds_per_second": 97050.4,
+        "checksum": 54965
+      },
+      {
+        "mode": "plain",
+        "seed": 123,
+        "matches": 5000,
+        "steps": 2406127,
+        "rounds": 53567,
+        "seconds": 0.578319,
+        "steps_per_second": 4160550.0,
+        "rounds_per_second": 92625.3,
+        "checksum": 54965
+      },
+      {
+        "mode": "plain",
+        "seed": 123,
+        "matches": 5000,
+        "steps": 2406127,
+        "rounds": 53567,
+        "seconds": 0.559953,
+        "steps_per_second": 4297020.0,
+        "rounds_per_second": 95663.4,
+        "checksum": 54965
+      }
+    ],
+    "native_observe": [
+      {
+        "mode": "observe",
+        "seed": 123,
+        "matches": 5000,
+        "steps": 2406127,
+        "rounds": 53567,
+        "seconds": 1.31619,
+        "steps_per_second": 1828110.0,
+        "rounds_per_second": 40698.7,
+        "checksum": 70445780
+      },
+      {
+        "mode": "observe",
+        "seed": 123,
+        "matches": 5000,
+        "steps": 2406127,
+        "rounds": 53567,
+        "seconds": 1.25526,
+        "steps_per_second": 1916840.0,
+        "rounds_per_second": 42674.1,
+        "checksum": 70445780
+      },
+      {
+        "mode": "observe",
+        "seed": 123,
+        "matches": 5000,
+        "steps": 2406127,
+        "rounds": 53567,
+        "seconds": 1.22106,
+        "steps_per_second": 1970530.0,
+        "rounds_per_second": 43869.4,
+        "checksum": 70445780
+      }
+    ],
+    "python_plain": [
+      {
+        "mode": "plain",
+        "seed": 123,
+        "matches": 5000,
+        "steps": 2406127,
+        "rounds": 53567,
+        "seconds": 13.029207361999852,
+        "steps_per_second": 184671.78648315594,
+        "rounds_per_second": 4111.301517560467,
+        "checksum": 54965
+      },
+      {
+        "mode": "plain",
+        "seed": 123,
+        "matches": 5000,
+        "steps": 2406127,
+        "rounds": 53567,
+        "seconds": 16.69234079099988,
+        "steps_per_second": 144145.5713207897,
+        "rounds_per_second": 3209.0765861239834,
+        "checksum": 54965
+      },
+      {
+        "mode": "plain",
+        "seed": 123,
+        "matches": 5000,
+        "steps": 2406127,
+        "rounds": 53567,
+        "seconds": 19.61613337200015,
+        "steps_per_second": 122660.61584973107,
+        "rounds_per_second": 2730.7624282602474,
+        "checksum": 54965
+      }
+    ],
+    "python_observe": [
+      {
+        "mode": "observe",
+        "seed": 123,
+        "matches": 5000,
+        "steps": 2406127,
+        "rounds": 53567,
+        "seconds": 36.486697690000256,
+        "steps_per_second": 65945.32123578386,
+        "rounds_per_second": 1468.12409429645,
+        "checksum": 70445780
+      },
+      {
+        "mode": "observe",
+        "seed": 123,
+        "matches": 5000,
+        "steps": 2406127,
+        "rounds": 53567,
+        "seconds": 43.74326966300032,
+        "steps_per_second": 55005.650435755866,
+        "rounds_per_second": 1224.5769557850167,
+        "checksum": 70445780
+      },
+      {
+        "mode": "observe",
+        "seed": 123,
+        "matches": 5000,
+        "steps": 2406127,
+        "rounds": 53567,
+        "seconds": 33.734805467000115,
+        "steps_per_second": 71324.7628581617,
+        "rounds_per_second": 1587.8852496244579,
+        "checksum": 70445780
+      }
+    ]
+  },
+  "summary": {
+    "native_plain": {
+      "seconds": 0.559953,
+      "steps": 2406127,
+      "rounds": 53567,
+      "steps_per_second": 4297015.999557106,
+      "rounds_per_second": 95663.38603418501
+    },
+    "native_observe": {
+      "seconds": 1.25526,
+      "steps": 2406127,
+      "rounds": 53567,
+      "steps_per_second": 1916835.5559804342,
+      "rounds_per_second": 42674.02769147427
+    },
+    "python_plain": {
+      "seconds": 16.69234079099988,
+      "steps": 2406127,
+      "rounds": 53567,
+      "steps_per_second": 144145.5713207897,
+      "rounds_per_second": 3209.0765861239834
+    },
+    "python_observe": {
+      "seconds": 36.486697690000256,
+      "steps": 2406127,
+      "rounds": 53567,
+      "steps_per_second": 65945.32123578386,
+      "rounds_per_second": 1468.12409429645
+    }
+  },
+  "observation_increment_us_per_step": {
+    "native": 0.2889735246726378,
+    "python": 8.22664676428151
+  }
+}
